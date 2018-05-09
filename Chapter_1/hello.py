@@ -6,6 +6,6 @@ myName = input()
 print('It is goot ot meet you, ' + myName)
 print('The length of your name is:')
 print(len(myName))
-print('What is your age')   # ask for hetir age
+print('What is your age')   # ask for their age
 myAge = input()
 print('You will be ' + str(int(myAge)+1) + ' in a year.')

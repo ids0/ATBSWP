@@ -20,6 +20,6 @@ def collatzSequence(input):
         else:
             break
 print('Enter number:')
-firstNumber= input()
+firstNumber = input()
 collatzSequence(firstNumber)
 input()

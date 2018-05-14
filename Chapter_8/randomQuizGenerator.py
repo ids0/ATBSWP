@@ -26,30 +26,30 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 'West Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
 
 # Generate N quiz files.
-for quizNum in range(2):
+for quizNum in range(2):    # Number for quizzes to be generated
     # TODO: Create the quiz and answer key files.
-    quizFile = open('capitalssquiz%s.txt' % (quizNum +1), 'w')
-    answerKeyFile = open('capitalssquiz_answers%s.txt' % (quizNum + 1), 'w')
+    quizFile = open('capitalssquiz%s.txt' % (quizNum +1), 'w')  # With the 'w' argumen it creates the files 
+    answerKeyFile = open('capitalssquiz_answers%s.txt' % (quizNum + 1), 'w')    # It also creates the answers files
 
     # TODO: Write out the header for the quiz.
-    quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')
-    quizFile.write(('' * 20) + 'State Capitals Quiz (Form %s)' % (quizNum+1))
+    quizFile.write('Name:\n\nDate:\n\nPeriod:\n\n')     # Name and period, it can also be created with ''' '''
+    quizFile.write(('' * 20) + 'State Capitals Quiz (Form %s)' % (quizNum+1))   # Put the quiz number on
     quizFile.write('\n\n')
 
     # TODO: Shuffle the order of the states.
-    states = list(capitals.keys())
-    random.shuffle(states)
+    states = list(capitals.keys())  # Create a list with the keys (tha name of the state)
+    random.shuffle(states)          # Shuffle that list so the first 4 are not always the same
 
-    # TODO: Loop through all 50 states, making a question for each.
-    for questionNum in range(4):
+    # TODO: Loop through all 50 states, making a question for each
+    for questionNum in range(4):    # Number of questiong 
         
         # Get right and wrong answers
-        correctAnswer = capitals[states[questionNum]]
-        wrongAnswers =list(capitals.values())
-        del wrongAnswers[wrongAnswers.index(correctAnswer)]
-        wrongAnswers = random.sample(wrongAnswers,3)
-        answerOptions = wrongAnswers + [correctAnswer]
-        random.shuffle(answerOptions)
+        correctAnswer = capitals[states[questionNum]]       # The correct answer is selected in the the original dictionary with the key (state name)
+        wrongAnswers = list(capitals.values())              # Creates a list of the values (the capitals) of the dictionary
+        del wrongAnswers[wrongAnswers.index(correctAnswer)] # Delete the right answer from the list of values using the index, it can also be done with wrongAnswers.remove(correctAnswer)
+        wrongAnswers = random.sample(wrongAnswers,3)        # From the list without the correct answer takes 3 random options
+        answerOptions = wrongAnswers + [correctAnswer]      # Create a list with the 3 wrong options and the correct answer
+        random.shuffle(answerOptions)                       # Shuffle the options 
 
         # Write the questions and the answer options to the quiz file.
         quizFile.write('%s. What is the capital of %s?\n' %(questionNum+1,states[questionNum]))

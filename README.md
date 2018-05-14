@@ -1,2 +1,2 @@
 # ATBSWP
-Repository for Automate the borin stuff with python
+Repository for Automate the boring stuff with python

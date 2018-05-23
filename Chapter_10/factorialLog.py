@@ -5,7 +5,7 @@ logging.debug('Start of program')
 def facotial(n):
     logging.debug('Start of facotial(%s%%)' % (n))
     total = 1
-    for i in range(1,n+1):
+    for i in range(n+1):
         total *= i
         logging.debug('i is ' + str(i) + ', total is ' + str(total))
     logging.debug('End of facotial (%s%%)' % (n))

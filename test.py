@@ -27,3 +27,4 @@ def switchLights(stoplight):
         assert 'red' in stoplight.values(), 'Neither light is red!' + str(stoplight)
 
 switchLights(market_2nd)
+import requests

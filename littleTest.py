@@ -1,24 +1,25 @@
-# import logging
-# logging.basicConfig(filename='log.txt', level=logging.DEBUG,format=' %(asctime)s - %(levelname)s - %(message)s ')
-# thelist = ['no', 'test1', 'test2']
-# i=3
-# if 'test%s' % (str(i)) in thelist:
-#     thelist.remove('test%s' % (str(i)))
-# eggs = 'Hello world!'
-# bacon = 'HELLO wOrLd!'
-# print(eggs.lower() == bacon.lower())
-# assert eggs.lower() == bacon.lower(), 'Eggs and bacon are the same thing?'
-# assert False, 'dude'
-# input()
+import os, re, glob
+Location = r'C:\Users\Ivan\Desktop'
 
 
+listing = glob.glob('C:/foo/bar/foo.log*')
+for filename in listing:
+    # do stuff
+    pass
 
-# logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
 
-import webbrowser, sys, pyperclip
-import requests
-# test =pyperclip.paste()
-# print(test)
-test = ['yo', '2']
+testRegex = re.compile(r'''2018-05-27--10-39-01_NJH47F_release-keys''')
+text = '2018-05-27--10-39-01_NJH47F_release-keys'
+mo = testRegex.search(text)
 
-# print(test[2] == No
+
+for files in os.listdir(Location):
+    print(files)
+    mo = testRegex.search(files)
+if mo != None:
+    print(mo)
+    print('MOOOOO')
+else:
+    print()
+# print(mo.group())
+input()

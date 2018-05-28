@@ -70,11 +70,12 @@ if len(os.listdir(tbBackupFolder)) > 2:
     for files in os.listdir(tbBackupFolder):
         tb = titaniumRegex2.search(files)
         if tb != None:
-            sumDate = (int(tb.group(1))*1+int(tb.group(2))*100000+int(tb.group(3))*100000000)
-            lst = lst + [[files, int(tb.group(1)), int(tb.group(2)), int(tb.group(3)), sumDate]]
             # tb.group(1) #day
             # tb.group(2) #month
             # tb.group(3) #year
+            sumDate = (int(tb.group(1))*1+int(tb.group(2))*100000+int(tb.group(3))*100000000)
+            lst = lst + [[files, int(tb.group(1)), int(tb.group(2)), int(tb.group(3)), sumDate]]
+
     print(lst)
             # lst[i][0]  file name
             # lst[i][1]  day

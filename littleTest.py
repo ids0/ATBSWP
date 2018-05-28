@@ -1,25 +1,16 @@
-import os, re, glob
-Location = r'C:\Users\Ivan\Desktop'
+import os, re
 
+titaniumRegex2 = re.compile(r'''
+    TitaniumBackup
+    \s?
+    (\d{2})-?   # group 1
+    (\d{2})-?    # group 2
+    (\d{4})?     # group 3
+    [^ ]*
+    ''', re.VERBOSE)
 
-listing = glob.glob('C:/foo/bar/foo.log*')
-for filename in listing:
-    # do stuff
-    pass
+text = 'New folder TitaniumBackup 19-05-2018 TitaniumBackup 20-05-2018 TitaniumBackup 27-05-2018'
 
-
-testRegex = re.compile(r'''2018-05-27--10-39-01_NJH47F_release-keys''')
-text = '2018-05-27--10-39-01_NJH47F_release-keys'
-mo = testRegex.search(text)
-
-
-for files in os.listdir(Location):
-    print(files)
-    mo = testRegex.search(files)
-if mo != None:
-    print(mo)
-    print('MOOOOO')
-else:
-    print()
-# print(mo.group())
+tbLen = len(titaniumRegex2.findall(text))
+print(titaniumRegex2.findall(text))
 input()

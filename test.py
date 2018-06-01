@@ -94,4 +94,5 @@ if len(os.listdir(tbBackupFolder)) > 2:
     print('%s in trash' % olderPath)
 else:
     print('Only 2 backups')
+assert fileFrom == fileTo, 'from and to path are the same'
 input()

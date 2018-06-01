@@ -1,30 +1,45 @@
-import traceback, logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-# try:
-#     raise Exception('This is the error message.')
-# except:
-#     errorFile = open('errorInfo.txt', 'w')
-#     errorFile.write(traceback.format_exc())
-#     errorFile.close()
-#     print('The traceback inf owas written to errorInfo.txt.')
+# from selenium import webdriver
+# import pprint
+# print('Opening Firefox...')
+# browser = webdriver.Firefox()
+# browser.get('http://inventwithpython.com')
+# linkElem = browser.find_elements_by_link_text('Read Online for Free')
+# print(type(linkElem))
+# linkElem[1].click()    # follows the "Read It Online" link
+# pprint.pprint(linkElem)
+# input()
 
-# podBayDoorStatus = 'open'
-# assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'
-# podBayDoorStatus = 'I\'m sorry, Dave. I\'m agraid I can\'n do that.'
-# assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'
 
-market_2nd = {'ns': 'green', 'ew': 'red'}
-mission_16th = {'ns': 'red', 'ew': 'green'}
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+print('Opening Firefox...')
+browser = webdriver.Firefox()
+browser.get('http://gmail.com')
+emailElem = browser.find_element_by_id('identifierId')
+emailElem.send_keys('Email@gmail.com')
+nextButtonElem = browser.find_element_by_id('identifierNext')
+nextButtonElem.click()
+for i in range(1220000):
+    i = i + 1
+    if i % 1000 == 0:
+        print(int(i/1000))
+    pass
+passwordElem = browser.find_element_by_tag_name('html')
+passwordElem.send_keys('Du')
+# passwordElem.submit()
+input()
 
-def switchLights(stoplight):
-    for key in stoplight.keys():
-        if stoplight[key] == 'green':
-            stoplight[key] = 'yellow'
-        elif stoplight[key] == 'yellow':
-            stoplight[key] = 'red'
-        elif stoplight[key] == 'red':
-            stoplight[key] = 'green'
-        assert 'red' in stoplight.values(), 'Neither light is red!' + str(stoplight)
-
-switchLights(market_2nd)
-import requests
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+# browser = webdriver.Firefox()
+# browser.get('http://nostarch.com')
+# htmlElem = browser.find_element_by_tag_name('html')
+# htmlElem.send_keys(Keys.END)	# scrolls to botton
+# for i in range(1720000):
+#     i = i + 1
+#     if i % 1000 == 0:
+#         print(int(i/1000))
+#     pass
+# htmlElem.send_keys(Keys.HOME)	# scrolls to top
+# print('done')
+# input()

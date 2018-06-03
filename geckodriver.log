@@ -936,3 +936,7 @@ IPDL protocol error: Handler returned error code!
 [Child 12392, Chrome_C[Parent 14048, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 11664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 11664, Chr1527876354203	Marionette	INFO	Stopped listening on port 7541
+1527876917965	geckodriver	INFO	geckodriver 0.20.1
+1527876917972	geckodriver	INFO	Listening on 127.0.0.1:9567
+1527981599151	geckodriver	INFO	geckodriver 0.20.1
+1527981599151	geckodriver	INFO	Listening on 127.0.0.1:5352

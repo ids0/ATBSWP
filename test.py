@@ -29,23 +29,7 @@
 # # passwordElem.submit()
 # input()
 
+import traceback
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-browser = webdriver.Firefox()
-browser.get('http://nostarch.com')
-htmlElem = browser.find_element_by_tag_name('html')
-htmlElem.send_keys(Keys.END)	# scrolls to botton
-def wait():
-    for i in range(1720000):
-        i = i + 1
-        if i % 1000 == 0:
-            print(int(i/1000))
-        pass
-wait()
-htmlElem.send_keys(Keys.HOME)	# scrolls to top
-browser.refresh()
-wait()
-wait()
-browser.quit()
-print('done')
-input()
+from selenium.webdriver.support.select import Select

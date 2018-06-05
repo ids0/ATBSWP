@@ -1798,3 +1798,310 @@ channel_win.cc, line 346
 e_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 13120, [Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc,Child 2696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 2696, Chrome_ChildThre1528138885444	Marionette	INFO	Stopped listening on port 9836
+1528155511233	geckodriver	INFO	geckodriver 0.20.1
+1528155511239	geckodriver	INFO	Listening on 127.0.0.1:9181
+1528155514321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.jwAzxJroasCg"
+1528155515809	Marionette	INFO	Listening on port 9194
+1528155515843	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528155534185	Marionette	INFO	Stopped listening on port 9194
+[Child 10792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528155787331	geckodriver	INFO	geckodriver 0.20.1
+1528155787338	geckodriver	INFO	Listening on 127.0.0.1:10199
+1528155790357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.LhGs2BDqA03P"
+1528155791841	Marionette	INFO	Listening on port 10214
+1528155791928	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 632, Chrome[Parent 1936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528155852426	Marionette	INFO	Stopped listening on port 10214
+1528155860035	geckodriver	INFO	geckodriver 0.20.1
+1528155860042	geckodriver	INFO	Listening on 127.0.0.1:10523
+1528155863073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.4UCtG1g16I8J"
+1528155864409	Marionette	INFO	Listening on port 10539
+1528155864643	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5964, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2004, Chrome_Child[Parent 5964, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528155911739	Marionette	INFO	Stopped listening on port 10539
+1528224440007	geckodriver	INFO	geckodriver 0.20.1
+1528224440022	geckodriver	INFO	Listening on 127.0.0.1:3452
+1528224443048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.NszrVXHAkziR"
+1528224444498	Marionette	INFO	Listening on port 3475
+1528224444591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/[Parent 12472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+[Child 12956, Chrome_ChildThread] WARNING: pipe errorJavaScript error: re: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12956, source://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12940, Chrome[Parent 12472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528225830138	Marionette	INFO	Stopped listening on port 3475
+\\Temp\\rust_mozprofile.Mn4MxvUgBoDD"
+1528224718974	Marionette	INFO	Listening on port 4847
+1528224719081	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/b[uild/sChild 5288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5288, Chrome_ChildThread] WARNIN[Parent 8172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7404, Chrome[Parent 8172, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528224750949	Marionette	INFO	Stopped listening on port 4847
+1528224769097	geckodriver	INFO	geckodriver 0.20.1
+1528224769103	geckodriver	INFO	Listening on 127.0.0.1:5238
+1528224772171	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.tO0WPPx88EcC"
+1528224773812	Marionette	INFO	Listening on port 5257
+1528224774209	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9712, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9712, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528225127162	Marionette	INFO	Stopped listening on port 5257
+ort 5995
+1528224953697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528224957533	Marionette	INFO	Stopped listening on port 5995
+[Parent 9172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13908, Chro1528225017326	geckodriver	INFO	geckodriver 0.20.1
+1528225017347	geckodriver	INFO	Listening on 127.0.0.1:6330
+1528225020402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.OpSvF3GR3gt1"
+1528225021842	Marionette	INFO	Listening on port 6350
+1528225021934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225026354	Marionette	INFO	Stopped listening on port 6350
+[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13864, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225050059	geckodriver	INFO	geckodriver 0.20.1
+1528225050066	geckodriver	INFO	Listening on 127.0.0.1:6571
+1528225053104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.uq6cjasVgLIS"
+1528225054546	Marionette	INFO	Listening on port 6591
+1528225054630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225121291	geckodriver	INFO	geckodriver 0.20.1
+1528225121306	geckodriver	INFO	Listening on 127.0.0.1:7059
+1528225124334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.aZdGr4Nx7njO"
+1528225125806	Marionette	INFO	Listening on port 7075
+1528225125892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225149118	Marionette	INFO	Stopped listening on port 7075
+[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9992, Chrom[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3248, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225165041	geckodriver	INFO	geckodriver 0.20.1
+1528225165041	geckodriver	INFO	Listening on 127.0.0.1:7427
+1528225168100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.yyUcIyJqUnD3"
+1528225169505	Marionette	INFO	Listening on port 7444
+1528225169635	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528225230473	Marionette	INFO	Stopped listening on port 7444
+t 7669
+1528225207820	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225210589	Marionette	INFO	Stopped listening on port 7669
+[Parent 2128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11868, Chrome_Ch[Child 11756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11756, Ch[Parent 2128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2128, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225272914	geckodriver	INFO	geckodriver 0.20.1
+1528225272920	geckodriver	INFO	Listening on 127.0.0.1:7966
+1528225275961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.DCXMpTNZ46ir"
+1528225277538	Marionette	INFO	Listening on port 7984
+1528225277995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225280663	Marionette	INFO	Stopped listening on port 7984
+[Parent 10688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10432, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Child 12624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12624, Chrome_Ch[Parent 10688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13964, Chr[Parent 10688, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225294941	geckodriver	INFO	geckodriver 0.20.1
+1528225294948	geckodriver	INFO	Listening on 127.0.0.1:8130
+1528225297995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.HFPqHGdlj7Mw"
+1528225299403	Marionette	INFO	Listening on port 8150
+1528225299556	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225302364	Marionette	INFO	Stopped listening on port 8150
+JavaScript error: jar:file:///C:/Program%20Files/Nightly/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+[Parent 2580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/[Parent 2580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9436, Chro[Parent 2580, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225389592	geckodriver	INFO	geckodriver 0.20.1
+1528225389599	geckodriver	INFO	Listening on 127.0.0.1:8629
+1528225392675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.rwdutUehRU4M"
+1528225394125	Marionette	INFO	Listening on port 8647
+1528225394202	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5544, Chro[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1652, Chr[Parent 2276, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225441977	Marionette	INFO	Stopped listening on port 8832
+1528225471617	geckodriver	INFO	geckodriver 0.20.1
+1528225471624	geckodriver	INFO	Listening on 127.0.0.1:9114
+1528225474653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.3Ji0XuodCDlg"
+1528225476254	Marionette	INFO	Listening on port 9132
+1528225476670	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9976, Chrome_ChildTh[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528225583310	Marionette	INFO	Stopped listening on port 9132
+ette	WARN	TLS certificate errors will be ignored for this session
+1528225576275	Marionette	INFO	Stopped listening on port 9575
+[Child 3236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 3236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo[Child 12328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+win.cc, line 346
+[Parent 3996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3996, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225589695	geckodriver	INFO	geckodriver 0.20.1
+1528225589701	geckodriver	INFO	Listening on 127.0.0.1:9689
+1528225592800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.qss6rfIIApFh"
+1528225594227	Marionette	INFO	Listening on port 9707
+1528225594323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528225598733	Marionette	INFO	Stopped listening on port 9707
+[Parent 5140, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5140, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 3[Child 8596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8596, Chrome_ChildThread] [Parent 5140, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5140, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225609021	geckodriver	INFO	geckodriver 0.20.1
+1528225609028	geckodriver	INFO	Listening on 127.0.0.1:9846
+1528225612076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.LmPGMMRSsmfO"
+1528225613473	Marionette	INFO	Listening on port 9863
+1528225613584	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[Parent 2092, Gecko_IOThread] WARNING: pipe error: 10[Child 1924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3548, Chrome_ChildThread] WARNING: pipe e[Parent 2432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14008, Chrome_Ch[Parent 2432, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225828542	Marionette	INFO	Stopped listening on port 10688
+omium/src/chrome/common/ipc_chann[el_win.cc, line 346Child 12
+780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12780,[Parent 7732, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7732, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528225827216	Marionette	INFO	Stopped listening on port 10984
+1528226075604	geckodriver	INFO	geckodriver 0.20.1
+1528226075611	geckodriver	INFO	Listening on 127.0.0.1:12657
+1528226078689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.VBAVRD8jIMJM"
+1528226080132	Marionette	INFO	Listening on port 12673
+1528226080206	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1864, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528226088308	Marionette	INFO	Stopped listening on port 12673
+1528226153960	geckodriver	INFO	geckodriver 0.20.1
+1528226153967	geckodriver	INFO	Listening on 127.0.0.1:13197
+1528226157032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.ZhaQ2pIWReVD"
+1528226159197	Marionette	INFO	Listening on port 13215
+1528226160164	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1760, Chrom[Child 9120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9120, C[Parent 1924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1924, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528226169494	Marionette	INFO	Stopped listening on port 13215
+1528226434507	geckodriver	INFO	geckodriver 0.20.1
+1528226434514	geckodriver	INFO	Listening on 127.0.0.1:14777
+1528226437552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.Zon59pj2PkDf"
+1528226495988	geckodriver	INFO	geckodriver 0.20.1
+1528226495996	geckodriver	INFO	Listening on 127.0.0.1:1179
+1528226499016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.RtyPzxM9pC4U"
+1528226500443	Marionette	INFO	Listening on port 1197
+1528226500596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528226502826	Marionette	INFO	Stopped listening on port 1197
+[Parent 1368, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome[/Parent 1368, Gecko_IOThread] WARNINGcommon/ipc_channel_win.cc, line 346
+[Ch: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ild 12388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12388, Chrome_ChildThread] WARNING: pipe error[Child 12412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528226555966	geckodriver	INFO	geckodriver 0.20.1
+1528226555972	geckodriver	INFO	Listening on 127.0.0.1:1543
+1528226559021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.0dR9XXxintoD"
+1528226560427	Marionette	INFO	Listening on port 1563
+1528226560531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528226562752	Marionette	INFO	Stopped listening on port 1563
+[Parent 6592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6592, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528226790948	geckodriver	INFO	geckodriver 0.20.1
+1528226790955	geckodriver	INFO	Listening on 127.0.0.1:3010
+1528226859175	geckodriver	INFO	geckodriver 0.20.1
+1528226859182	geckodriver	INFO	Listening on 127.0.0.1:3245
+1528226862226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.Wydm637VAjGE"
+1528226863784	Marionette	INFO	Listening on port 3263
+1528226864239	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10444, Chrome_ChildThread] WARNING: pipe error: [Child 12472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_wi[Parent 5744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1528226870562	Marionette	INFO	Stopped listening on port 3263
+1528228238074	geckodriver	INFO	geckodriver 0.20.1
+1528228238083	geckodriver	INFO	Listening on 127.0.0.1:11106
+1528228241108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Ivan\\AppData\\Local\\Temp\\rust_mozprofile.JGgOjnEoIr9z"
+1528228242645	Marionette	INFO	Listening on port 11123
+1528228243130	Marionette	WARN	TLS certificate errors will be ignored for this session

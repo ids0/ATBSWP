@@ -6,5 +6,9 @@ sheet = wb['Sheet1']
 columnB = list(list(sheet.columns)[1])
 for cell in columnB:
     print(cell.value)
-
+for rowNum in range(2, sheet.max_row):  # skip the first row
+    sheet.cell(row=rowNum, column=1).value
 input()
+
+
+

@@ -7,8 +7,8 @@ from openpyxl.utils.cell import get_column_letter, column_index_from_string
 # if len(sys.argv) > 1:
 while True:
     wbName = 'test.xlsx'
-    N = 3
-    M = 2
+    N = 6
+    M = 5
     startRow = N
     blankRows = M
     # startRow = sys.argv[1]

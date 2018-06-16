@@ -3,7 +3,7 @@
 
 import requests, bs4, os
 
-# Basic stuffs
+# Basic stuff
 # courseLink = 'https://oyc.yale.edu/biomedical-engineering/beng-100'
 courseLink = 'https://oyc.yale.edu/introduction-psychology/psyc-110'
 splitLink = courseLink.split('/')

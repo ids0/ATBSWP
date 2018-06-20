@@ -1,16 +1,10 @@
-import os, PyPDF2
+import os, docx
 os.chdir('D:/Drive/Code/ATBSWP/Chapter_13')
-minutesFile = open('meetingminutes.pdf','rb')
-pdfReader = PyPDF2.PdfFileReader(minutesFile)
-pdfWriter = PyPDF2.PdfFileWriter()
-for pageNum in range(pdfReader.getNumPages()):
-    pageObj = pdfReader.getPage(pageNum).rotateClockwise(90*(pageNum+1))
-    pdfWriter.addPage(pageObj)
-
-
-resultPdfFile = open('rotatedPage.pdf', 'wb')
-pdfWriter.write(resultPdfFile)
-resultPdfFile.close()
-minutesFile.close()
+doc = docx.Document('demo.docx')
+# print(doc.paragraphs[1].runs[0].text)
+for p in range(len(doc.paragraphs)):
+    for r in range(len(doc.paragraphs[p].runs)):
+        print(doc.paragraphs[p].runs[r].text,end='')
+    print('')
 
 input()

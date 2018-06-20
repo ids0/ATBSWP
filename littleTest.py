@@ -1,14 +1,7 @@
-import os, PyPDF2
+import os, docx
 os.chdir('D:/Drive/Code/ATBSWP/Chapter_13')
-pdfFile = open('meetingminutes.pdf','rb')
-pdfReader = PyPDF2.PdfFileReader(pdfFile)
-pdfWriter = PyPDF2.PdfFileWriter()
-for pageNum in range(pdfReader.numPages):
-    pdfWriter.addPage(pdfReader.getPage(pageNum))
-pdfWriter.encrypt('swordfish')
-resultPdf = open('result.pdf','wb')
-pdfWriter.write(resultPdf)
-
-resultPdf.close()
-print('Done')
+doc = docx.Document('demo.docx')
+para = doc.paragraphs
+for p in para:
+    print(p.text)
 input()

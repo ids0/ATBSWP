@@ -1,8 +1,17 @@
-import os, docx
-os.chdir('D:/Drive/Code/ATBSWP/Chapter_13')
-doc = docx.Document()
-doc.add_paragraph('Hello world!', 'Title')
-paraObj1 = doc.add_paragraph('This is a second paragraph.')
-paraObj2 = doc.add_paragraph('This is a yet another paragraph')
-paraObj1.add_run(' This text is being added to the second paragraph')
-doc.save('multipleParagraphs.docx')
+import os, csv
+os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_14')
+# Create file
+outputFile= open('output.csv', 'w', newline='')
+outputWriter = csv.writer(outputFile, delimiter='\t',lineterminator='\n\n')
+lst1 = ['spam','eggs','bacon']
+lst2 = ['Hello, world!',' eggs','ham']
+lst3 = ['1','3.141592','4','4']
+outputWriter.writerow(lst1)
+outputWriter.writerow(lst2)
+outputWriter.writerow(lst3)
+outputFile.close()
+# Open
+file = open('output.csv')
+fileReader = csv.reader(file)
+for row in fileReader:
+    print('Row #' + str(fileReader.line_num) + ' ' + str(row))

@@ -2,6 +2,7 @@ import os, csv
 os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_14')
 # Create file
 outputFile= open('output.csv', 'w', newline='')
+
 outputWriter = csv.writer(outputFile, delimiter=',',lineterminator='\n')    #  defaults delimiter and lineterminator
 lst1 = ['spam','eggs','bacon']
 lst2 = ['Hello, world!',' eggs','ham']

@@ -1,12 +1,17 @@
-import threading, time
-print("Start of program.")
+import threading
+import time
+print('enter your name')
+LOL = input()
+print('ok')
+print('test of %s' % LOL)
 
-def takeANap():
-    time.sleep(5)
-    print('Wake Up!')
+def test():
+    time.sleep(2)
+    print('yo')
 
-
-threadObj = threading.Thread(target=takeANap)
-threadObj.start()
-
-print('End of Program.')
+for i in range(0, 5):
+    Thread = threading.Thread(target=test)
+    Thread.start()
+input()
+Thread.join()
+print('Done.')

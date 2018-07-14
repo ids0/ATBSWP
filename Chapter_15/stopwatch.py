@@ -14,9 +14,7 @@ lapNum = 1
 # Start tracking the lap times.
 try:
     while True:
-        print('YO')
-        input()     
-        print('yo')
+        input()
         lapTime = round(time.time()-lastTime,2)
         totalTime = round(time.time()-startTime,2)
         print('Lap #%s: %s (%s)' % (lapNum, totalTime, lapTime), end='')

@@ -1,19 +1,6 @@
-import threading
-import time
-print('enter your name')
-LOL = input()
-print('ok')
-print('test of %s' % LOL)
+import subprocess
 
-
-def test():
-    time.sleep(2)
-    print('yo')
-
-
-for i in range(0, 5):
-    Thread = threading.Thread(target=test)
-    Thread.start()
-input()
-Thread.join()
-print('Done.')
+fileObj = open(r'D:\Drive\Code\ATBSWP\Chapter_15\hello.txt','w')
+fileObj.write('Hello world!')
+fileObj.close()
+subprocess.Popen(['start','D:\Drive\Code\ATBSWP\Chapter_15\hello.txt'], shell=True)

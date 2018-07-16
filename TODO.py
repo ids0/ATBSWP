@@ -2,4 +2,6 @@
 
 #TODO: Spreadsheet to text files
 
-#TODO: Plugins
+#TODO: prettyStopwatch.py
+
+#TODO: ctrl + d - ctrl + alt + l

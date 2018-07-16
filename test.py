@@ -1,17 +1,10 @@
-import threading
-import time
-print('enter your name')
-LOL = input()
-print('ok')
-print('test of %s' % LOL)
+import smtplib
 
-def test():
-    time.sleep(2)
-    print('yo')
 
-for i in range(0, 5):
-    Thread = threading.Thread(target=test)
-    Thread.start()
-input()
-Thread.join()
-print('Done.')
+# smtpObj = smtplib.SMTP_SSL('smtp.gmail.com',465)
+smtpObj = smtplib.SMTP('smtp-mail.outlook.com',587)
+smtpObj.ehlo()
+smtpObj.starttls()
+smtpObj.login('isnow78@hotmail.com',input())
+smtpObj.sendmail('isnow78@hotmail.com','ivandrelichman@gmail.com','Subject: Test.\nTest')
+# print(test)

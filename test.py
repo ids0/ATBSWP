@@ -1,10 +1,23 @@
-import smtplib
+import imapclient, pyzmail
 
+#email
+import os, sys
+os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_16')
+sys.path.insert(0, r'D:\Drive\Code\Random')
+import file
+myEmail = file.email
 
-# smtpObj = smtplib.SMTP_SSL('smtp.gmail.com',465)
-smtpObj = smtplib.SMTP('smtp-mail.outlook.com',587)
-smtpObj.ehlo()
-smtpObj.starttls()
-smtpObj.login('isnow78@hotmail.com',input())
-smtpObj.sendmail('isnow78@hotmail.com','ivandrelichman@gmail.com','Subject: Test.\nTest')
-# print(test)
+imapObj = imapclient.IMAPClient('imap.gmail.com', ssl=True)
+imapObj.login(myEmail,file.test)
+imapObj.select_folder('INBOX',readonly=True)
+UIDs = imapObj.search(['SINCE', '05-Jul-2018'])
+rawMessages = imapObj.fetch([8093],['BODY[]','FLAGS'])
+test2 = rawMessages[8093]
+
+message = pyzmail.PyzMessage.factory(rawMessages[8093][b'BODY[]'])
+# message.get_subject()
+# message.get_addresses('from')
+# message.text_part != None
+test = message.text_part.get_payload().decode(message.html_part.charset)
+print(test)
+imapObj.logout()

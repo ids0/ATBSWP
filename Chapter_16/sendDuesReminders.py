@@ -1,15 +1,19 @@
 #! python3
 # sendDuesRemingerd.py - Sends emails based on payment status in spreadsheet
 
-import openpyxl,smtplib,sys,os
+import openpyxl,smtplib
+
+#email
+import os, sys
 os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_16')
 sys.path.insert(0, r'D:\Drive\Code\Random')
 import file
+myEmail = file.email
 
 # Open the spreadsheet and get the latest dues status. 
 wb = openpyxl.load_workbook('duesRecords.xlsx')
 sheet = wb['Sheet1']
-myEmail = file.email
+
 lastCol = sheet.max_column
 latestMonth = sheet.cell(row=1,column=lastCol).value
 # Check each member's payment status.

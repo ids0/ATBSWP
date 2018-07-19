@@ -1,10 +1,10 @@
 import imapclient, pyzmail
 
 #email
-import os, sys
-os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_16')
+import sys
 sys.path.insert(0, r'D:\Drive\Code\Random')
 import file
+
 myEmail = file.email
 
 imapObj = imapclient.IMAPClient('imap.gmail.com', ssl=True)

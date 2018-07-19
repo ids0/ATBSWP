@@ -14,9 +14,9 @@ for game in range(n):
     number = [1,2,3]
     random.shuffle(number)
     for i in range(1,4): 
-        doors['door%s'%i] = number[0]
-        number.remove(doors['door%s'%i])
-    
+        doors[f'door{i}'] = number[0]
+        number.remove(doors[f'door{i}'])
+
     # Assign doors:
     winningDoorNum = random.randint(1,3)
     chosenDoor = random.randint(1,3)

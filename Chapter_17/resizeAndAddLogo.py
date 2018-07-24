@@ -8,8 +8,9 @@ os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_17')
 
 SQUARE_FIT_SIZE = 300
 LOGO_FILENAME = 'catlogo.png'
-
-logoIm = Image.open(LOGO_FILENAME)
+logoBig = Image.open(LOGO_FILENAME)
+logoBWidth, logoBHight = logoBig.size
+logoIm = Image.open(LOGO_FILENAME).resize((int(logoBWidth/10),int(logoBHight/10)))
 logoWidth, logoHight = logoIm.size
 
 os.makedirs('withLogo', exist_ok=True)
@@ -37,7 +38,6 @@ for filename in os.listdir('.'):
         # Add the logo.
         print(f'Adding logo to {filename}...')
         im.paste(logoIm, (width - logoWidth, height - logoHight), logoIm)
-
         # Save changes.
         im.save(os.path.join('withLogo', filename))
 

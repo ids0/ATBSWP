@@ -1,5 +1,15 @@
-from ftplib import FTP
+import pyautogui, time
+pyautogui.PAUSE = 1
+pyautogui.FAILSAFE = True
+test = pyautogui.size()
+print(test)
+for i in range(10):
+    test =pyautogui.position()
+    time.sleep(0.5)
+    print(test)
+    continue
+    pyautogui.moveRel(100,  0, duration=0.25)
+    pyautogui.moveRel(0,    100, duration=0.25)
+    pyautogui.moveRel(-100, 0, duration=0.25)
+    pyautogui.moveRel(0,    -100, duration=0.25)
 
-ftp = FTP('192.168.1.102:3248')
-ftp.login(user='ivan',passwd='ivan')
-print(ftp.retrlines('LIST'))

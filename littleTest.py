@@ -1,15 +1,10 @@
-import pyautogui, time
-pyautogui.PAUSE = 1
-pyautogui.FAILSAFE = True
-test = pyautogui.size()
-print(test)
-for i in range(10):
-    test =pyautogui.position()
-    time.sleep(0.5)
-    print(test)
-    continue
-    pyautogui.moveRel(100,  0, duration=0.25)
-    pyautogui.moveRel(0,    100, duration=0.25)
-    pyautogui.moveRel(-100, 0, duration=0.25)
-    pyautogui.moveRel(0,    -100, duration=0.25)
+import pyautogui, os, time
+os.chdir(r'D:\Drive\Code\ATBSWP\Chapter_18')
 
+def commentAfterDelay():
+    pyautogui.click(100,100)
+    pyautogui.typewrite('In IDLE, Alt-3 comments out a line.')
+    time.sleep(2)
+    pyautogui.hotkey('alt','3')
+
+commentAfterDelay()
